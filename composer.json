@@ -1,6 +1,6 @@
 {
     "name": "joovence/nova-permission",
-    "description": "A Laravel Nova tool for Spatie's Permission library.",
+    "description": "A Laravel Nova tool for Spatie's Permission library. Based on vyuldashev/nova-permission, adapted for use witn Nova 4",
     "keywords": [
         "laravel",
         "nova",
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vyuldashev\\NovaPermission\\": "src/"
+            "Joovence\\NovaPermission\\": "src/"
         }
     },
     "extra": {
@@ -22,7 +22,7 @@
         },
         "laravel": {
             "providers": [
-                "Vyuldashev\\NovaPermission\\ToolServiceProvider"
+                "Joovence\\NovaPermission\\ToolServiceProvider"
             ]
         }
     },

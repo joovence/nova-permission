@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Vyuldashev\NovaPermission;
+namespace Joovence\NovaPermission;
 
 use Laravel\Nova\Nova;
 use Spatie\Permission\PermissionRegistrar;
